@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.log
+certs/
+# pr-monitoring.config.json contains phone numbers — keep it local, do not commit
+pr-monitoring.config.json
+# redis-ops.config.json contains internal infra details (namespaces, hosts) — keep it local
+redis-ops.config.json
